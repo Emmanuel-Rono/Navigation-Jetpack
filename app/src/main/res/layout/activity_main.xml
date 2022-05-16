@@ -8,7 +8,6 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
-        android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="377dp"
         android:layout_height="639dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,16 +18,17 @@
         android:id="@+id/frag1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:text="Frag1"
+        android:layout_marginStart="48dp"
+        android:text="@string/frag1"
         app:layout_constraintBaseline_toBaselineOf="@+id/frag2"
         app:layout_constraintStart_toStartOf="parent" />
+
 
     <Button
         android:id="@+id/frag2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="frag2"
+        android:text="@string/frag2"
         app:layout_constraintBottom_toTopOf="@+id/fragmentContainerView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.426"

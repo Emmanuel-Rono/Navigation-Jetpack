@@ -2,4 +2,6 @@
     <string name="app_name">nav</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="frag1">Frag1</string>
+    <string name="frag2">frag2</string>
 </resources>

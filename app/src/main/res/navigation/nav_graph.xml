@@ -3,24 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/frag13">
+    app:startDestination="@id/Frag1">
 
     <fragment
-        android:id="@+id/frag22"
-        android:name="com.example.nav.frag2"
+        android:id="@+id/Frag2"
+        android:name="com.example.nav.Frag2"
         android:label="fragment_frag2"
-        tools:layout="@layout/fragment_frag2" >
+        tools:layout="@layout/fragment_frag2">
+
         <action
-            android:id="@+id/action_frag22_to_frag13"
-            app:destination="@id/frag13" />
+            android:id="@+id/action_Frag2_to_Frag1"
+            app:destination="@id/Frag1" />
     </fragment>
     <fragment
-        android:id="@+id/frag13"
-        android:name="com.example.nav.frag1"
+        android:id="@+id/Frag1"
+        android:name="com.example.nav.Frag1"
         android:label="fragment_frag1"
         tools:layout="@layout/fragment_frag1" >
         <action
-            android:id="@+id/action_frag13_to_frag22"
-            app:destination="@id/frag22" />
+            android:id="@+id/action_Frag1_to_Frag2"
+            app:destination="@id/Frag2" />
     </fragment>
 </navigation>
